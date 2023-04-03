@@ -21,3 +21,4 @@ with open('chrome-information.txt', 'w') as f:
     # closing the database connection
     cursor.close()
     c.close()
+    
