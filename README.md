@@ -1,4 +1,4 @@
-# Chrome-Passwod-Stealer
+# Chrome-Password-Stealers
 
 Stealer.py
 ----------
